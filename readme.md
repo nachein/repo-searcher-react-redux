@@ -1,4 +1,4 @@
-# Learn Redux
+# Repo Searcher
 
 Github repo searcher by user name, implemented with React + Redux (among others)
 

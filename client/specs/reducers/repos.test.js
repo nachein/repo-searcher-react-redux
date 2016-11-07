@@ -45,7 +45,7 @@ describe('repos reducer', () => {
       {
         loading: false,
         items: [],
-        error: 'Failed to receive repos'
+        error: 'some error'
       }
     )
   })

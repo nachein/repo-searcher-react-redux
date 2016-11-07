@@ -66,8 +66,7 @@ describe('actions:fetchRepos', () => {
       .reply(500, [])
 
     const expectedActions = [
-      { type: FAILED_REPOS, error: 'An error occurred: Internal Server Error', userName: 'pepe' },
-      { type: RECEIVE_REPOS, repos: [], userName: 'pepe' }
+      { type: FAILED_REPOS, error: 'Internal Server Error', userName: 'pepe' }
     ]
     const store = mockStore({ repos: [] })
 
